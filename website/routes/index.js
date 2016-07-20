@@ -2,13 +2,13 @@ var express = require('express');
 var router = express.Router();
 
 /*
- * AWAS
+ * AWS
  */
 var awsIot = require('aws-iot-device-sdk');
 var response, reported;
 var device = awsIot.device({
-   keyPath: 'certs/4782034784-private.pem.key',
-  certPath: 'certs/4782034784-certificate.pem.crt',
+   keyPath: 'certs/private.key',
+  certPath: 'certs/certificate.crt',
     caPath: 'certs/root-CA.crt',
   clientId: 'BloodPressureMonitor',
     region: 'eu-central-1' 
