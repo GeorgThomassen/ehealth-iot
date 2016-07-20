@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .panel.panel-default
+    .panel-heading
+      h3
+        i(class="fa fa-heartbeat",aria-hidden="true")
+        = ' '+title
+    .panel-body
+      p See latest measurement
+    table.table
+      thead
+        tr
+          th(style="width: 25%")= 'Name'
+          th(style="width: 25%")= 'Systolic'
+          th(style="width: 25%")= 'Diastolic'
+          th(style="width: 25%")= 'Pulse'
+      tbody
+        tr
+          th(scope='row')= 'Georg Thomassen'
+          td= systolic
+          td= diastolic
+          td= pulse

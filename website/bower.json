@@ -1,0 +1,22 @@
+{
+  "name": "BloodPressureMonitor",
+  "description": "IoT device",
+  "main": "",
+  "license": "MIT",
+  "keywords": [
+    "IoT"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.3"
+  }
+}
