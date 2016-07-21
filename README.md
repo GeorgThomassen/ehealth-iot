@@ -19,3 +19,6 @@ Healthcare Internet of Things device
 7. Change `/website/routes/index.js` to match `certs` folder
 8. Run `npm install` and `bower install` in `website` folder
 9. Run `npm start` in website folder to start website at `localhost:3000`
+
+# Circuit
+![circuit](https://georgthomassen.github.io/images/ehealth-iot/wires.png)
